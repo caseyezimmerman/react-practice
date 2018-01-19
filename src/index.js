@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Props from './passingProps'
+import State from './simpleState'
 
 
 ReactDOM.render(
-	<Props name='Casey' />, 
+	<State name='Casey' />, 
 	document.getElementById('root')
 );
 
